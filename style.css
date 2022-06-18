@@ -165,7 +165,6 @@ h2{
 footer{
     display: flex;
     background-color:  hsl(192, 100%, 9%);
-    margin-top: -5%;
     position: relative;
     padding-top: 8%;
     justify-content: space-evenly;
@@ -208,7 +207,184 @@ li{
 .socials{
     margin-bottom: 40%;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
 
- 
+*{
+    font-size: 12px;
+}
+main{
+    margin-bottom: 25%;
+}
+.get-started{
+    padding: 2%;
+    border-radius: 5px;
+}
+}
+@media screen and (max-width:768px) {
+    *{
+        font-size: 10px;
+    }
+    .header-content{
+        flex-direction: column;
+    }
+    .message{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .mockup{
+        width: 100%;
+    }
+    .mockup img{
+        width: 50%;
+        margin: 3% 25% 0 25%;
+    }
+    nav{
+        height: 5%;
+    }
+    h1{
+        margin-top: 7%;
+        margin-bottom: 1.5%;
+    }
+    .message p {
+        width: 80%;
+        line-height: 1;
+        margin: 0 auto 0 auto;
+    }
+    .message button{
+        margin-top: 2%;
+        width: 30%;
+        padding: 1%;
+        border-radius: 30px;
+    }
+    .one,.three{
+        flex-direction: column-reverse;
+    }
+    .two{
+        flex-direction: column;
+    }
+    .one-text,.two-img,.three-text{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+     }
+     .one-img,.two-text,.three-img{
+         width: 100%;
+         text-align: center;
+     }
+     .one-img img{
+         width: 60%;
+         margin-left: 0;
+     }
+     .two-img img{
+         width: 60%;
+     }
+     .three-img img{
+         width: 60%;
+         margin-left: 0;
+     }
+     h2{
+         margin-top: 6%;
+         margin-bottom: 2%;
+         font-size: 2rem;
+     }
+    footer{
+        flex-direction: column;
+        padding-top: 12%;
+    }
+    .footer-one >img{
+        width: 20%;
+        margin-bottom: 8%;
+    }
+    .footer-two,.footer-three,.footer-four{
+        margin-top: 4.5%;
+        width: 100%;
+        text-align: center;
+        padding-left: 2%;
+    }
+    .footer-one{
+        width: 80%;
+        text-align: center;
+        margin:4.5% auto 0 auto ;
+    }
+    .footer-one li{
+        margin-bottom: 2%;
+    }
+   
+    .small{
+        line-height: 1.7;
+    }
+    .socials li{
+       display: inline;
+       margin-right: 2%;
+    }
+    .socials{
+        margin-bottom: 6%;
+    }
+    .get-started{
+        padding: 4%;
+        bottom: 90%;
+        left: 25%;
+    }
+    .down-button{
+        width: 40%;
+        padding: 3%;
+        border-radius: 30px;
+    }
+}
+@media screen and (max-width:425px) {
+    *{
+        font-size: 9px;
+    }
+
+    .mockup img{
+        width: 50%;
+        margin: 3% 25% 0 25%;
+    }
+    h1{
+        margin-top: 30%;
+        margin-bottom: 1.5%;
+    }
+    .message button{
+        margin-top: 5%;
+        width: 50%;
+        padding: 1%;
+        border-radius: 30px;
+    }
+    footer{
+        flex-direction: column;
+        padding-top: 12%;
+    }
+    .footer-one >img{
+        width: 20%;
+        margin-bottom: 8%;
+    }
+    .footer-two,.footer-three{
+        margin:4.5% auto 0 auto ;
+        width: 80%;
+        text-align: left;
+        padding-left: 2%;
+    }
+    .footer-four{
+        margin-top: 4.5%;
+        width: 100%;
+        text-align: center;
+        padding-left: 2%;
+    }
+    .footer-one{
+        width: 80%;
+        text-align: left;
+        margin:4.5% auto 0 auto ;
+    }
+    .get-started{
+        padding: 4%;
+        bottom: 90%;
+        left: 5%;
+        width: 90%;
+    }
+    .down-button{
+        width: 40%;
+        padding: 3%;
+        border-radius: 30px;
+    }
 }
